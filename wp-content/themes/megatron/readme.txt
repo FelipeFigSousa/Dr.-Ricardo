@@ -10,3 +10,5 @@ You may not claim intellectual or exclusive ownership to any of our products, mo
 
 3. Photos Copyright Info
 When viewing the theme demos in the gallery http://themes.g5plus.net you will see several photographic images used. Our themes do not come packaged with any copyrighted photography. The photos used in the demos are purely for demonstration purposes, and are used to give the visitor a functional preview of what the theme will look like once content has been added. These photos should not be saved, copied or redistributed in any way.
+
+Change test
