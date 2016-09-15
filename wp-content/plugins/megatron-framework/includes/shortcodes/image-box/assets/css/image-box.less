@@ -1,0 +1,37 @@
+.image-box
+{
+  background-color: #F9F9F9;
+  border:1px solid #eee;
+  padding: 20px 17px;
+  min-height: 197px;
+  .ibox-image
+  {
+    float: left;
+    margin-right: 18px;
+  }
+  .ibox-content
+  {
+    overflow: hidden;
+  }
+  p{
+    line-height: 1.8;
+  }
+  a{
+    display: block;
+    font-size: 14px;
+    line-height: 1.2;
+    margin-bottom: 12px;
+  }
+}
+@media (max-width: 480px) {
+  .image-box
+  {
+    text-align: center;
+    .ibox-image
+    {
+      float: none;
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+  }
+}

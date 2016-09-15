@@ -1,0 +1,229 @@
+/* Pricing Table */
+.pricingtable {
+  text-align: center;
+  .pt-content
+  {
+    ul{
+      list-style: none;
+      li{
+        display: table;
+        width: 100%;
+        span{
+          display: table-cell;
+          vertical-align: middle;
+          font-size: 14px;
+          letter-spacing: 0.05em;
+        }
+      }
+    }
+    div {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      box-sizing: border-box;
+      text-align: center;
+      width: 100%;
+      span {
+        width: 100%;
+        vertical-align: middle;
+        font-size: 18px;
+      }
+    }
+    p {
+      display: block;
+      margin: 0;
+    }
+  }
+  &.style1,&.style3{
+    .pt-item {
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: -1px;
+    }
+    .row{
+      padding-left: 1px;
+    }
+    .owl-stage-outer
+    {
+      padding-left: 1px;
+      margin-right: -1px;
+    }
+  }
+  &.style1
+  {
+    .pt-item {
+      padding-bottom: 60px;
+      border: 1px solid #DDDDDD;
+    }
+    .pt-active {
+      background-color: #F9F9F9;
+    }
+  }
+  &.style4{
+    .pt-content {
+      padding-bottom: 60px;
+      border: 1px solid #DDDDDD;
+    }
+    .pt-active .pt-content {
+      background-color: #F9F9F9;
+    }
+  }
+  &.style1,&.style4
+  {
+    .pt-content {
+      ul {
+        padding-left: 25px;
+        padding-right: 25px;
+        li {
+          border-bottom: 1px solid #DDDDDD;
+          height: 74px;
+          span {
+            color: #666666;           ;
+          }
+        }
+      }
+      div {
+        height: 83px;
+        span {
+          color: #FFFFFF;
+          letter-spacing: 0.05em;
+        }
+      }
+      p {
+        font-size: 80px;
+        line-height: 1;
+        padding: 41px 0 62px;
+        * {
+          font-size: 18px;
+          display: inline;
+        }
+      }
+    }
+  }
+  &.style2
+  {
+    .pt-content {
+      margin-bottom: 30px;
+      padding-bottom: 40px;
+      border: 1px solid #DDDDDD;
+      .rounded(5px);
+      ul {
+        padding: 0;
+        margin: 0;
+        li {
+          border-bottom: 1px solid #DDDDDD;
+          height: 48px;
+          span {
+            color: #666666;
+          }
+        }
+      }
+      div {
+        height: 77px;
+        span {
+          font-size: 14px;
+        }
+      }
+      p {
+        font-size: 32px;
+        color: #ffffff;
+        line-height: 1;
+        padding: 19px 5px;
+        * {
+          font-size: 18px;
+          display: inline;
+          color: #ffffff;
+        }
+      }
+      a {
+        margin-top: 40px;
+      }
+    }
+    .pt-active .pt-content {
+      background-color: #F9F9F9;
+    }
+  }
+  &.style3
+  {
+    .pt-item {
+      margin-bottom: 30px;
+      margin-top: 30px;
+      padding-bottom: 40px;
+      border: 1px solid #DDDDDD;
+    }
+    .pt-item.pt-active {
+      margin-bottom: 30px;
+      margin-top: 0;
+      padding-bottom: 55px;
+    }
+    .pt-content {
+      ul {
+        padding: 0;
+        margin: 0;
+        li {
+          border-bottom: 1px solid #DDDDDD;
+          height: 48px;
+          span {
+            color: #666666;
+          }
+        }
+      }
+      div {
+        height: 77px;
+        span {
+          font-size: 14px;
+        }
+      }
+      p {
+        background-color: #EEEEEE;
+        font-size: 32px;
+        line-height: 1;
+        padding: 19px 5px;
+        * {
+          font-size: 18px;
+          display: inline;
+        }
+      }
+      a {
+        margin-top: 40px;
+      }
+    }
+    .pt-active .pt-content {
+      div {
+        height: 107px;
+        span {
+          font-size: 24px;
+        }
+      }
+      p {
+        color: #ffffff;
+        * {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .pricingtable{
+    &.style1,&.style3{
+      .pt-item {
+        margin-left: 0;
+      }
+      .row{
+        padding-left: 0;
+      }
+      .owl-stage-outer
+      {
+        padding-left: 0;
+        margin-right: 0;
+      }
+    }
+  }
+}

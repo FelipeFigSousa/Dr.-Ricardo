@@ -1,0 +1,241 @@
+.dashicons-pricing-table:before {
+	font-family: FontAwesome;
+	content: "\f155";
+}
+.dashicons-cutlery:before {
+	font-family: FontAwesome;
+	content: "\f0f5";
+}
+.dashicons-clock:before {
+	font-family: FontAwesome;
+	content: "\f017";
+}
+#adminmenu #menu-posts-ourteam .menu-icon-post div.wp-menu-image:before {
+	content: "\f0c0";
+	font-family: FontAwesome;
+}
+
+#adminmenu #menu-posts-testimonial .menu-icon-post div.wp-menu-image:before {
+	content: "\f10d";
+	font-family: FontAwesome;
+}
+
+#adminmenu #menu-posts-services .menu-icon-post div.wp-menu-image:before {
+	content: "\f022";
+	font-family: FontAwesome;
+}
+
+.wpb_megatron_slider_container .wpb_content_element, .wpb_megatron_testimonial_ctn .wpb_content_element, .wpb_megatron_quotes_ctn .wpb_content_element, .wpb_megatron_cover_box_ctn .wpb_content_element
+{
+	min-width: 250px;
+	display: inline-block;
+}
+.vc_element-icon.fa
+{
+	background-image: none;
+	color: #10B765;
+	font-size: 30px;
+}
+.vc_colored-dropdown .primary-color,.vc_colored-dropdown .secondary-color  {
+	color: #FFFFFF !important;
+}
+.fip-vc-theme-grey.vc-icons-selector .fip-icons-container .fip-box
+{
+	font-size: 30px !important;
+}
+.fip-vc-theme-grey.vc-icons-selector .fip-icons-container .fip-box .icon,.fip-vc-theme-grey.vc-icons-selector .selected-icon .icon
+{
+	display: inline-block;
+	line-height: 1;
+	margin-left: 0;
+	width: auto;
+	height: auto;
+	vertical-align: middle;
+}
+
+/* message_box */
+/* message_box */
+.wpb_element_wrapper .vc_color-m-info.vc_message_box {
+	color: #59A3C1;
+	border-color: #A0D1E1;
+	background-color: #B6ECFF;
+}
+.wpb_element_wrapper .vc_color-m-info.vc_message_box .vc_message_box-icon {
+	color: #59A3C1;
+}
+.wpb_element_wrapper .vc_color-m-info.vc_message_box-solid {
+	color: #59A3C1;
+	border-color: transparent;
+	background-color: #B6ECFF;
+}
+.wpb_element_wrapper .vc_color-m-info.vc_message_box-solid .vc_message_box-icon {
+	color: #59A3C1;
+}
+.wpb_element_wrapper .vc_color-m-info.vc_message_box-outline,
+.wpb_element_wrapper .vc_color-m-info.vc_message_box-solid-icon {
+	color: #59A3C1;
+	border-color: #A0D1E1;
+	background-color: transparent;
+}
+.wpb_element_wrapper .vc_color-m-info.vc_message_box-outline .vc_message_box-icon,
+.wpb_element_wrapper .vc_color-m-info.vc_message_box-solid-icon .vc_message_box-icon {
+	color: #59A3C1;
+}
+.wpb_element_wrapper .vc_color-m-info.vc_message_box-solid-icon .vc_message_box-icon {
+	color: #59A3C1;
+	background-color: #B6ECFF;
+}
+.wpb_element_wrapper .vc_color-m-info.vc_message_box-3d {
+	box-shadow: 0 5px 0 #59A3C1;
+}
+/* 2 */
+.wpb_element_wrapper .vc_color-m-warning.vc_message_box {
+	color: #FF7F00;
+	border-color: #FFCC99;
+	background-color: #FFF6B7;
+}
+.wpb_element_wrapper .vc_color-m-warning.vc_message_box .vc_message_box-icon {
+	color: #FF7F00;
+}
+.wpb_element_wrapper .vc_color-m-warning.vc_message_box-solid {
+	color: #FF7F00;
+	border-color: transparent;
+	background-color: #FFF6B7;
+}
+.wpb_element_wrapper .vc_color-m-warning.vc_message_box-solid .vc_message_box-icon {
+	color: #FF7F00;
+}
+.wpb_element_wrapper .vc_color-m-warning.vc_message_box-outline,
+.wpb_element_wrapper .vc_color-m-warning.vc_message_box-solid-icon {
+	color: #FF7F00;
+	border-color: #FFCC99;
+	background-color: transparent;
+}
+.wpb_element_wrapper .vc_color-m-warning.vc_message_box-outline .vc_message_box-icon,
+.wpb_element_wrapper .vc_color-m-warning.vc_message_box-solid-icon .vc_message_box-icon {
+	color: #FF7F00;
+}
+.wpb_element_wrapper .vc_color-m-warning.vc_message_box-solid-icon .vc_message_box-icon {
+	color: #FF7F00;
+	background-color: #FFF6B7;
+}
+.wpb_element_wrapper .vc_color-m-warning.vc_message_box-3d {
+	box-shadow: 0 5px 0 #FF7F00;
+}
+/* 3 */
+.wpb_element_wrapper .vc_color-m-success.vc_message_box {
+	color: #468C00;
+	border-color: #80FF01;
+	background-color: #BCFCA2;
+}
+.wpb_element_wrapper .vc_color-m-success.vc_message_box .vc_message_box-icon {
+	color: #468C00;
+}
+.wpb_element_wrapper .vc_color-m-success.vc_message_box-solid {
+	color: #468C00;
+	border-color: transparent;
+	background-color: #BCFCA2;
+}
+.wpb_element_wrapper .vc_color-m-success.vc_message_box-solid .vc_message_box-icon {
+	color: #468C00;
+}
+.wpb_element_wrapper .vc_color-m-success.vc_message_box-outline,
+.wpb_element_wrapper .vc_color-m-success.vc_message_box-solid-icon {
+	color: #468C00;
+	border-color: #80FF01;
+	background-color: transparent;
+}
+.wpb_element_wrapper .vc_color-m-success.vc_message_box-outline .vc_message_box-icon,
+.wpb_element_wrapper .vc_color-m-success.vc_message_box-solid-icon .vc_message_box-icon {
+	color: #468C00;
+}
+.wpb_element_wrapper .vc_color-m-success.vc_message_box-solid-icon .vc_message_box-icon {
+	color: #468C00;
+	background-color: #BCFCA2;
+}
+.wpb_element_wrapper .vc_color-m-success.vc_message_box-3d {
+	box-shadow: 0 5px 0 #468C00;
+}
+/* 4 */
+.wpb_element_wrapper .vc_color-m-danger.vc_message_box {
+	color: #FF5533;
+	border-color: #DFB6AD;
+	background-color: #FFCEC5;
+}
+.wpb_element_wrapper .vc_color-m-danger.vc_message_box .vc_message_box-icon {
+	color: #FF5533;
+}
+.wpb_element_wrapper .vc_color-m-danger.vc_message_box-solid {
+	color: #FF5533;
+	border-color: transparent;
+	background-color: #FFCEC5;
+}
+.wpb_element_wrapper .vc_color-m-danger.vc_message_box-solid .vc_message_box-icon {
+	color: #FF5533;
+}
+.wpb_element_wrapper .vc_color-m-danger.vc_message_box-outline,
+.wpb_element_wrapper .vc_color-m-danger.vc_message_box-solid-icon {
+	color: #FF5533;
+	border-color: #DFB6AD;
+	background-color: transparent;
+}
+.wpb_element_wrapper .vc_color-m-danger.vc_message_box-outline .vc_message_box-icon,
+.wpb_element_wrapper .vc_color-m-danger.vc_message_box-solid-icon .vc_message_box-icon {
+	color: #FF5533;
+}
+.wpb_element_wrapper .vc_color-m-danger.vc_message_box-solid-icon .vc_message_box-icon {
+	color: #FF5533;
+	background-color: #FFCEC5;
+}
+.wpb_element_wrapper .vc_color-m-danger.vc_message_box-3d {
+	box-shadow: 0 5px 0 #FF5533;
+}
+/* 5 */
+.wpb_element_wrapper .vc_color-m-notice.vc_message_box {
+	color: #444444;
+	border-color: #DDDDDD;
+	background-color: #EFF5F7;
+}
+.wpb_element_wrapper .vc_color-m-notice.vc_message_box .vc_message_box-icon {
+	color: #444444;
+}
+.wpb_element_wrapper .vc_color-m-notice.vc_message_box-solid {
+	color: #444444;
+	border-color: transparent;
+	background-color: #EFF5F7;
+}
+.wpb_element_wrapper .vc_color-m-notice.vc_message_box-solid .vc_message_box-icon {
+	color: #444444;
+}
+.wpb_element_wrapper .vc_color-m-notice.vc_message_box-outline,
+.wpb_element_wrapper .vc_color-m-notice.vc_message_box-solid-icon {
+	color: #444444;
+	border-color: #DDDDDD;
+	background-color: transparent;
+}
+.wpb_element_wrapper .vc_color-m-notice.vc_message_box-outline .vc_message_box-icon,
+.wpb_element_wrapper .vc_color-m-notice.vc_message_box-solid-icon .vc_message_box-icon {
+	color: #444444;
+}
+.wpb_element_wrapper .vc_color-m-notice.vc_message_box-solid-icon .vc_message_box-icon {
+	color: #444444;
+	background-color: #EFF5F7;
+}
+.wpb_element_wrapper .vc_color-m-notice.vc_message_box-3d {
+	box-shadow: 0 5px 0 #444444;
+}
+.wpb_element_wrapper .vc_message_box.icon_small {
+	padding: 4px 15px 4px 47px;
+}
+.wpb_element_wrapper .vc_message_box.icon_small .vc_message_box-icon {
+	font-size: 10px;
+	width: 49px;
+}
+.wpb_element_wrapper .vc_message_box h6 {
+	font-size: 14px;
+	padding: 0;
+	margin: 1em;
+}
+.select2-container .select2-choice .select2-arrow b:after{
+    margin-left: -5px !important;
+}

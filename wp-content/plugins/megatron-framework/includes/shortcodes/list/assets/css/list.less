@@ -1,0 +1,87 @@
+.list{
+	list-style: none;
+	padding: 0;
+	letter-spacing: .05em;
+	font-size: 13px;
+	&.p-color-bg,
+	&.s-color-bg{
+		background-color: transparent;
+	}
+	.list-item {
+		padding: 0;
+		line-height: 1.2;
+		margin-bottom: 10px;
+		.list-before-title {
+			position: relative;
+			height: 30px;
+			width: 30px;
+			float: left;
+			line-height: 30px;
+			text-align: center;
+			.rounded(50%);
+			i {
+				font-size: 12px;
+				line-height: 30px;
+			}
+			img {
+				height: 12px;
+
+			}
+		}
+		.list-title {
+			padding-left: 10px;
+			font-size: 14px;
+			line-height: 30px;
+			display: block;
+			overflow: hidden;
+		}
+	}
+	&.style5{
+		&.list-color-gray{
+			.list-before-title{
+				background-color: #444;
+			}
+		}
+		&.list-color-gray,
+		&.s-color-bg,
+		&.p-color-bg{
+			.list-before-title{
+				color: #fff;
+			}
+		}
+	}
+	&.style1,
+	&.style2,
+	&.style3,
+	&.style4,
+	&.style6,{
+		.list-before-title{
+			background-color: transparent;
+		}
+	}
+	&.style1{
+		.list-before-title{
+			&:before{
+				content: "\f111";
+				font-family: fontawesome;
+				display: block;
+				font-size: 8px;
+			}
+		}
+	}
+	&.style2{
+		.list-before-title{
+			&:before{
+				content: "\f04d";
+				font-family: fontawesome;
+				display: block;
+				font-size: 7px;
+			}
+		}
+	}
+	&.list-color-gray{
+		.list-before-title{
+			color: #444;
+		}
+	}
+}

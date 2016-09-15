@@ -1,0 +1,37 @@
+.mailchimp .mailchimp-label {
+  display: none;
+}
+.mailchimp p {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+.mailchimp input[type="submit"] {
+  min-width: 126px;
+  border: 0;
+  padding: 16px 0;
+  display: inline;
+}
+.mailchimp input[type="email"] {
+  height: 50px;
+  width: auto;
+  margin-right: 15px;
+  display: inline;
+  background-color: transparent;
+}
+.mailchimp.color-light input[type="email"] {
+  color: #ffffff;
+}
+.mailchimp.color-light ::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.mailchimp.color-light :-moz-placeholder {
+  color: #ffffff;
+}
+.mailchimp.color-light ::-moz-placeholder {
+  color: #ffffff;
+}
+.mailchimp.color-light :-ms-input-placeholder {
+  color: #ffffff;
+}

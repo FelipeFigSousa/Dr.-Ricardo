@@ -1,0 +1,92 @@
+.view-demo {
+  text-align: center;
+  max-width: 428px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.view-demo .demo-image {
+  position: relative;
+  overflow: hidden;
+  height: 350px;
+  border: 1px solid #EEEEEE;
+}
+.view-demo .demo-image img {
+  width: 100%;
+  height: auto;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+.view-demo .demo-image a {
+  -webkit-transform: translateY(60px);
+  -moz-transform: translateY(60px);
+  -o-transform: translateY(60px);
+  -ms-transform: translateY(60px);
+  transform: translateY(60px);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.view-demo .demo-image .overlay-view-demo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+}
+.view-demo .demo-image .overlay-view-demo .content-middle {
+  width: 100%;
+  height: 100%;
+}
+.view-demo .demo-image:hover .overlay-view-demo {
+  opacity: 1;
+}
+.view-demo .demo-image:hover img {
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  transform: translateY(-20px);
+}
+.view-demo .demo-image:hover a {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -o-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+.view-demo .view-link {
+  font-size: 14px;
+  line-height: 1.6;
+  letter-spacing: 0.05em;
+  display: block;
+  padding-top: 31px;
+}
+.view-demo.new-demo .demo-image:after {
+  content: "NEW";
+  position: absolute;
+  right: -30px;
+  top: 9px;
+  background-color: red;
+  color: #fff;
+  padding: 0 5px;
+  font-size: 12px;
+  font-weight: bold;
+  z-index: 999;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 100px;
+  text-align: center;
+  transform-origin: center center;
+  display: block;
+  line-height: 22px;
+}

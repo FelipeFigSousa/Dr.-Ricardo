@@ -1,0 +1,369 @@
+.iconbox{
+  .icon-box-shape{
+    a{
+      display: inline-block;
+      i{
+        display: inline-block;
+        font-size: 32px;
+      }
+      img{
+        height: 32px;
+        width: 32px;
+      }
+      i,
+      img{
+        .transition-all(.3s);
+      }
+    }
+  }
+  h3{
+    text-transform: uppercase;
+    a{
+      line-height: 1.2;
+      display: inline-block;
+    }
+  }
+  span{
+    display: block;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  p,
+  span{
+    line-height: 2.2;
+  }
+
+  h3,span,p{
+    font-size: 14px;
+    color: #444;
+  }
+
+  &.text-center{
+    text-align: center;
+    padding: 0 10px;
+    .icon-box-shape{
+      a{
+        height: 70px;
+        width: 70px;
+        margin-bottom: 2px;
+        i{
+          line-height: 70px;
+        }
+      }
+    }
+    h3{
+      margin-bottom: 10px;
+    }
+    &.default{
+      h3{
+        font-size: 18px;
+      }
+      .icon-box-shape{
+        margin-bottom: 10px;
+        a{
+          position: relative;
+          height: 60px;
+          width: 60px;
+          margin: 5px;
+          .rounded(50%);
+          .transition-all(.3s);
+          &:after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 60px;
+            width: 60px;
+            border: 2px solid transparent;
+            .rounded(50%);
+            .transition-all(.3s)
+          }
+          &:before{
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 60px;
+            width: 60px;
+            border: 2px solid transparent;
+            .rounded(50%);
+            .transition-all(.7s)
+          }
+          i{
+            line-height: 60px;
+          }
+          img{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+          }
+        }
+      }
+      &:hover{
+        .icon-box-shape{
+          a{
+            background-color: #fff;
+            &:before{
+              -webkit-transform: scale(1.3);
+              -moz-transform: scale(1.3);
+              -ms-transform: scale(1.3);
+              -o-transform: scale(1.3);
+              transform: scale(1.3);
+              opacity: 0;
+            }
+          }
+        }
+      }
+    }
+    &.icon-box-circle{
+      .icon-box-shape{
+        display: block;
+        position: relative;
+        margin-bottom: 35px;
+        &:before{
+          top: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
+          position: relative;
+        }
+        a{
+          position: absolute;
+          margin: auto;
+          display: inline-block;
+          top: 5px;
+          left: 0;
+          right: 0;
+        }
+      }
+    }
+  }
+
+  &.top-inline{
+    position: relative;
+    padding-left: 10px;
+    .icon-box-shape{
+      a{
+        display: block;
+        position: absolute;
+        width: 70px;
+        text-align: center;
+      }
+    }
+    h3{
+      padding-left: 70px;
+      margin-bottom: 35px;
+      a{
+        padding-top: 8px;
+      }
+    }
+    span{
+      padding-left: 70px;
+    }
+
+    &.icon-box-circle{
+      h3{
+        line-height: 70px;
+        margin-bottom: 20px;
+        padding-left: 85px;
+        a{
+          padding-top: 20px;
+        }
+      }
+      p{
+        padding-left: 0;
+      }
+    }
+  }
+
+  &.left{
+    position: relative;
+    h3,
+    p,
+    span{
+      padding-left: 80px;
+    }
+    h3{
+      margin-bottom: 5px;
+    }
+    .icon-box-shape{
+      a{
+        display: block;
+        position: absolute;
+        width: 80px;
+        text-align: center;
+      }
+    }
+    &.icon-box-circle{
+      h3,
+      p,
+      span{
+        padding-left: 85px;
+      }
+    }
+  }
+
+  &.left-inline{
+    position: relative;
+    h3,
+    p,
+    span{
+      padding-left: 85px;
+    }
+    h3{
+      margin-bottom: 15px;
+      a{
+        padding-top: 8px;
+      }
+    }
+    .icon-box-shape{
+      a{
+        display: block;
+        position: absolute;
+        width: 80px;
+        text-align: center;
+      }
+    }
+
+    &.icon-box-circle{
+      h3{
+        a{
+          padding-top: 20px;
+        }
+      }
+    }
+  }
+
+  &.default{
+    &.left,
+    &.top-inline,
+    &.left-inline{
+      &:hover{
+        .icon-box-shape{
+          a{
+            i,
+            img{
+              -webkit-transform: scale(1.3);
+              -moz-transform: scale(1.3);
+              -ms-transform: scale(1.3);
+              -o-transform: scale(1.3);
+              transform: scale(1.3);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.icon-box-circle{
+    .icon-box-shape{
+      position: absolute;
+      &:before{
+        content: "";
+        display: block;
+        position: absolute;
+        height: 70px;
+        width: 70px;
+        top: 0;
+        left: 0;
+        .rounded(50%);
+        opacity: .3;
+        .transition-all(.5s);
+      }
+      a {
+        position: absolute;
+        height: 60px;
+        width: 60px;
+        .rounded(50%);
+        top: 5px;
+        left: 5px;
+        text-align: center;
+        .transition-all(.5s);
+        i {
+          line-height: 60px;
+          color: #fff;
+          .transition-all(.3s);
+        }
+        img {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          left: 0;
+          margin: auto;
+        }
+      }
+    }
+
+    &:hover{
+      .icon-box-shape:before{
+        opacity: 1;
+      }
+      .icon-box-shape{
+        a{
+          background-color: #fff;
+          -webkit-transform: scale(1.1);
+          -moz-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+          -o-transform: scale(1.1);
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+
+  &.icon-box-light{
+    position: relative;
+    h3{
+      font-size: 24px;
+      margin-bottom: 5px;
+    }
+    span{
+      font-size: 18px;
+      margin-bottom: 0;
+    }
+    h3,span{
+      padding-left: 100px;
+      color: #fff;
+    }
+    .icon-box-shape{
+      position: absolute;
+      width: 100px;
+      height: 100%;
+      top: 0;
+      left: 0;
+      a{
+        i{
+          font-size: 45px;
+          width: 45px;
+          height: 45px;
+          position: absolute;
+          margin: auto;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  &.color-light{
+    p,
+    span,
+    h3{
+      color: #fff;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .iconbox{
+    padding: 0 10px;
+  }
+}

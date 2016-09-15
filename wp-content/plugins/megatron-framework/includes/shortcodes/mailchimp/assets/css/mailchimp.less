@@ -1,0 +1,49 @@
+.mailchimp
+{
+  .mailchimp-label
+  {
+    display: none;
+  }
+  p{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+  }
+  input[type="submit"] {
+    min-width: 126px;
+    border: 0;
+    padding: 16px 0;
+    display: inline;
+  }
+
+  input[type="email"] {
+    height: 50px;
+    width: auto;
+    margin-right: 15px;
+    display: inline;
+    background-color: transparent;
+  }
+  &.color-light{
+    input[type="email"] {
+      color: #ffffff;
+    }
+    ::-webkit-input-placeholder {
+      color: #ffffff;
+    }
+
+    :-moz-placeholder {
+      // Firefox 18-
+      color: #ffffff;
+    }
+
+    ::-moz-placeholder {
+      //  Firefox 19+
+      color: #ffffff;
+    }
+
+    :-ms-input-placeholder {
+      color: #ffffff;
+    }
+  }
+}

@@ -1,0 +1,154 @@
+.testimonial
+{
+  &.style1{
+    .owl-controls .owl-nav div
+    {
+      top: 25px;
+      opacity: 1;
+      margin-top: 0;
+    }
+    &:hover .owl-controls .owl-nav,.owl-controls .owl-nav {
+      .owl-prev {
+        left: 25px;
+      }
+      .owl-next {
+        right: 25px;
+      }
+    }
+  }
+  &.style2,&.style3
+  {
+    &:hover .owl-controls .owl-nav,.owl-controls .owl-nav {
+      .owl-prev {
+        left: -50px;
+      }
+      .owl-next {
+        right: -50px;
+      }
+    }
+  }
+  &.style2,&.style3,&.style4{
+    p{
+      font-style: italic;
+    }
+  }
+  &.style3{
+    .owl-stage-outer:before {
+      content: "\f10e";
+      font-family: fontawesome;
+      font-size: 30px;
+      color: #DDDDDD;
+      margin-bottom: 16px;
+      display: block;
+    }
+    p{
+      padding-bottom: 3px;
+    }
+    h6{
+      padding-top: 0;
+    }
+  }
+  &.style4{
+    p{
+      margin-bottom: 18px;
+      &:after{
+        content: "\f10e";
+        font-family: fontawesome;
+        font-size: 23px;
+        font-style: normal;
+        color: #ffffff;
+        display: block;
+        width: 52px;
+        height: 52px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 52px;
+        background-color: #888888;
+        .rounded(50%);
+        margin-top: 28px;
+      }
+    }
+  }
+  .owl-controls .owl-dots
+  {
+    padding-top: 25px;
+  }
+  .testimonial-ratings
+  {
+    color: #FFBF00;
+    font-size: 18px;
+  }
+  .testimonial-item
+  {
+    img{
+      width: 90px;
+      height: 90px;
+      .rounded(50%);
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 25px;
+    }
+  }
+  &.style5
+  {
+    .testimonial-item {
+      img
+      {
+        width: 190px;
+        height: 190px;
+      }
+      h6{
+        margin-bottom: 0;
+      }
+    }
+    .testimonial-ratings
+    {
+      font-size: 15px;
+      margin-bottom: 28px;
+      padding-top: 10px;
+    }
+  }
+  text-align: center;
+  &.text-left{
+    text-align: left;
+    p{
+      margin-left: 0;
+    }
+  }
+  h6{
+    font-size: 14px;
+    padding-top: 5px;
+  }
+  p{
+    max-width: 770px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &.color-light
+  {
+    p,h6{
+      color: #ffffff;
+    }
+  }
+}
+@media (max-width: 991px) {
+  .testimonial
+  {
+    &.style1{
+      .owl-controls .owl-nav div
+      {
+        top: 50%;
+        margin-top: -22px;
+        opacity: 0;
+      }
+      &:hover .owl-controls .owl-nav,.owl-controls .owl-nav {
+        .owl-prev {
+          left: 0;
+        }
+        .owl-next {
+          right: 0;
+        }
+      }
+    }
+  }
+}

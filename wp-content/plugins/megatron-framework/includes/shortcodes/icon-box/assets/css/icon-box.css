@@ -1,0 +1,352 @@
+.iconbox .icon-box-shape a {
+  display: inline-block;
+}
+.iconbox .icon-box-shape a i {
+  display: inline-block;
+  font-size: 32px;
+}
+.iconbox .icon-box-shape a img {
+  height: 32px;
+  width: 32px;
+}
+.iconbox .icon-box-shape a i,
+.iconbox .icon-box-shape a img {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.iconbox h3 {
+  text-transform: uppercase;
+}
+.iconbox h3 a {
+  line-height: 1.2;
+  display: inline-block;
+}
+.iconbox span {
+  display: block;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.iconbox p,
+.iconbox span {
+  line-height: 2.2;
+}
+.iconbox h3,
+.iconbox span,
+.iconbox p {
+  font-size: 14px;
+  color: #444;
+}
+.iconbox.text-center {
+  text-align: center;
+  padding: 0 10px;
+}
+.iconbox.text-center .icon-box-shape a {
+  height: 70px;
+  width: 70px;
+  margin-bottom: 2px;
+}
+.iconbox.text-center .icon-box-shape a i {
+  line-height: 70px;
+}
+.iconbox.text-center h3 {
+  margin-bottom: 10px;
+}
+.iconbox.text-center.default h3 {
+  font-size: 18px;
+}
+.iconbox.text-center.default .icon-box-shape {
+  margin-bottom: 10px;
+}
+.iconbox.text-center.default .icon-box-shape a {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  margin: 5px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.iconbox.text-center.default .icon-box-shape a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 60px;
+  border: 2px solid transparent;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.iconbox.text-center.default .icon-box-shape a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 60px;
+  border: 2px solid transparent;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+}
+.iconbox.text-center.default .icon-box-shape a i {
+  line-height: 60px;
+}
+.iconbox.text-center.default .icon-box-shape a img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.iconbox.text-center.default:hover .icon-box-shape a {
+  background-color: #fff;
+}
+.iconbox.text-center.default:hover .icon-box-shape a:before {
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  transform: scale(1.3);
+  opacity: 0;
+}
+.iconbox.text-center.icon-box-circle .icon-box-shape {
+  display: block;
+  position: relative;
+  margin-bottom: 35px;
+}
+.iconbox.text-center.icon-box-circle .icon-box-shape:before {
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: relative;
+}
+.iconbox.text-center.icon-box-circle .icon-box-shape a {
+  position: absolute;
+  margin: auto;
+  display: inline-block;
+  top: 5px;
+  left: 0;
+  right: 0;
+}
+.iconbox.top-inline {
+  position: relative;
+  padding-left: 10px;
+}
+.iconbox.top-inline .icon-box-shape a {
+  display: block;
+  position: absolute;
+  width: 70px;
+  text-align: center;
+}
+.iconbox.top-inline h3 {
+  padding-left: 70px;
+  margin-bottom: 35px;
+}
+.iconbox.top-inline h3 a {
+  padding-top: 8px;
+}
+.iconbox.top-inline span {
+  padding-left: 70px;
+}
+.iconbox.top-inline.icon-box-circle h3 {
+  line-height: 70px;
+  margin-bottom: 20px;
+  padding-left: 85px;
+}
+.iconbox.top-inline.icon-box-circle h3 a {
+  padding-top: 20px;
+}
+.iconbox.top-inline.icon-box-circle p {
+  padding-left: 0;
+}
+.iconbox.left {
+  position: relative;
+}
+.iconbox.left h3,
+.iconbox.left p,
+.iconbox.left span {
+  padding-left: 80px;
+}
+.iconbox.left h3 {
+  margin-bottom: 5px;
+}
+.iconbox.left .icon-box-shape a {
+  display: block;
+  position: absolute;
+  width: 80px;
+  text-align: center;
+}
+.iconbox.left.icon-box-circle h3,
+.iconbox.left.icon-box-circle p,
+.iconbox.left.icon-box-circle span {
+  padding-left: 85px;
+}
+.iconbox.left-inline {
+  position: relative;
+}
+.iconbox.left-inline h3,
+.iconbox.left-inline p,
+.iconbox.left-inline span {
+  padding-left: 85px;
+}
+.iconbox.left-inline h3 {
+  margin-bottom: 15px;
+}
+.iconbox.left-inline h3 a {
+  padding-top: 8px;
+}
+.iconbox.left-inline .icon-box-shape a {
+  display: block;
+  position: absolute;
+  width: 80px;
+  text-align: center;
+}
+.iconbox.left-inline.icon-box-circle h3 a {
+  padding-top: 20px;
+}
+.iconbox.default.left:hover .icon-box-shape a i,
+.iconbox.default.top-inline:hover .icon-box-shape a i,
+.iconbox.default.left-inline:hover .icon-box-shape a i,
+.iconbox.default.left:hover .icon-box-shape a img,
+.iconbox.default.top-inline:hover .icon-box-shape a img,
+.iconbox.default.left-inline:hover .icon-box-shape a img {
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  transform: scale(1.3);
+}
+.iconbox.icon-box-circle .icon-box-shape {
+  position: absolute;
+}
+.iconbox.icon-box-circle .icon-box-shape:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  top: 0;
+  left: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  opacity: .3;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.iconbox.icon-box-circle .icon-box-shape a {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  top: 5px;
+  left: 5px;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.iconbox.icon-box-circle .icon-box-shape a i {
+  line-height: 60px;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.iconbox.icon-box-circle .icon-box-shape a img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.iconbox.icon-box-circle:hover .icon-box-shape:before {
+  opacity: 1;
+}
+.iconbox.icon-box-circle:hover .icon-box-shape a {
+  background-color: #fff;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.iconbox.icon-box-light {
+  position: relative;
+}
+.iconbox.icon-box-light h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.iconbox.icon-box-light span {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.iconbox.icon-box-light h3,
+.iconbox.icon-box-light span {
+  padding-left: 100px;
+  color: #fff;
+}
+.iconbox.icon-box-light .icon-box-shape {
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.iconbox.icon-box-light .icon-box-shape a i {
+  font-size: 45px;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+}
+.iconbox.color-light p,
+.iconbox.color-light span,
+.iconbox.color-light h3 {
+  color: #fff;
+}
+@media (max-width: 767px) {
+  .iconbox {
+    padding: 0 10px;
+  }
+}

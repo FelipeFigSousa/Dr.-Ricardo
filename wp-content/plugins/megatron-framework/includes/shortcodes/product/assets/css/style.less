@@ -1,0 +1,117 @@
+.sc-product-wrap {
+	.owl-dots {
+		text-align: center;
+		padding: 27.5px 0;
+		position: relative;
+		&:after,
+		&:before {
+			content: "";
+			display: block;
+			left: -1000%;
+			right: -1000%;
+			position: absolute;
+		}
+
+		&:before {
+			top: 0;
+			border-top-style: solid;
+			border-top-width: 1px;
+		}
+
+		&:after {
+			bottom: 0;
+			border-bottom-width: 1px;
+			border-bottom-style: solid;
+		}
+	}
+	.owl-dot {
+		width: 13px;
+		height: 13px;
+		border-style: solid;
+		border-width: 1px;
+		display: inline-block;
+		border-radius: 100%;
+		margin: 0 5px;
+	}
+	.owl-dot.active {
+		background-color: transparent;
+	}
+
+	.owl-carousel .owl-controls .owl-nav .owl-prev,
+	.owl-carousel .owl-controls .owl-nav .owl-next{
+		position: absolute;
+		width: 44px;
+		height: 44px;
+		line-height: 42px;
+		text-align: center;
+		border: 1px solid rgba(0,0,0,0.6);
+		color: rgba(0,0,0,0.6);
+		font-size: 24px;
+		-webkit-border-radius: 100%;
+		-moz-border-radius: 100%;
+		border-radius: 100%;
+		top: 50%;
+
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		transform: translateY(-50%);
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-ms-transition: all 0.5s;
+		-o-transition: all 0.5s;
+		transition: all 0.5s;
+
+		margin-top: -75px;
+	}
+
+	.owl-carousel .owl-controls .owl-nav .owl-prev {
+		left: -64px;
+	}
+
+	.owl-carousel .owl-controls .owl-nav .owl-next {
+		right: -64px;
+	}
+}
+.sc-product-category-wrap {
+	.owl-carousel .owl-controls .owl-nav .owl-prev,
+	.owl-carousel .owl-controls .owl-nav .owl-next{
+		margin-top: -50px;
+	}
+}
+
+.sc-product-sidebar-wrap {
+	.sc-title {
+		margin-bottom: 40px;
+	}
+	.product-listing.woocommerce {
+		margin: 0;
+	}
+	.product-listing.woocommerce .star-rating {
+		margin: 0 20px 0 0;
+	}
+}
+.product-sidebar-item + .product-sidebar-item {
+	margin-top: 45px;
+}
+.product-sidebar-item a {
+	display: block;
+}
+.product-sidebar-item:hover {
+	.product-widget-thumb {
+		.product-link,
+		.product-quick-view{
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+}
+
+.product-category-inner a {
+	display: block;
+}
+
+.product-category-inner h3.product-name {
+	margin: 10px 0 0 0 !important;
+}

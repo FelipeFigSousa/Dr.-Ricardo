@@ -1,0 +1,366 @@
+.process
+{
+  h6{
+    font-size: 14px;
+  }
+  a{
+    text-decoration: none;
+    display: block;
+    &:hover,&:visited,&:active,&:link{
+      color: inherit;
+    }
+  }
+  text-align: center;
+  &.style1,&.style2
+  {
+    .process-step
+    {
+      overflow: hidden;
+      z-index: 1;
+      .process-icon
+      {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        .rounded(50%);
+        border-style: solid;
+        i{
+          -webkit-transition: background-color .5s ease 0s;
+          -moz-transition: background-color .5s ease 0s;
+          -o-transition: background-color .5s ease 0s;
+          transition: background-color .5s ease 0s;
+        }
+        img,i {
+          display: block;
+          position: relative;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          .rounded(50%);
+        }
+        &:before,&:after{
+          position: absolute;
+          content: "";
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          width: 500%;
+          z-index: -1;
+          height: 0;
+        }
+        &:before {
+          left: auto;
+        }
+        &:after {
+          right: auto;
+        }
+      }
+      &:first-child
+      {
+        .process-icon:before {
+          display: none;
+        }
+      }
+      &:last-child{
+        .process-icon:after {
+          display: none;
+        }
+      }
+    }
+  }
+  &.style1
+  {
+    .process-step
+    {
+      .process-icon
+      {
+        top: 55px;
+        width: 140px;
+        height: 140px;
+        border-width: 10px;
+        i{
+          font-size: 42px;
+          color: #FFF;
+        }
+        img,i {
+          line-height: 120px;
+        }
+        &:before {
+          right: 130px;
+        }
+        &:after {
+          left: 130px;
+        }
+      }
+      p{
+        padding-top: 200px;
+      }
+    }
+  }
+  &.style2
+  {
+    .process-step
+    {
+      .process-icon
+      {
+        top: 68px;
+        width: 70px;
+        height: 70px;
+        border-width: 5px;
+        i{
+          font-size: 32px;
+        }
+        img,i {
+          line-height: 60px;
+        }
+        &:before,&:after{
+        }
+        &:before {
+          right: 65px;
+        }
+        &:after {
+          left: 65px;
+        }
+      }
+      &:hover{
+        .process-icon
+        {
+          i{
+            color: #ffffff;
+          }
+        }
+      }
+      p{
+        padding-top: 147px;
+      }
+    }
+  }
+  &.style3
+  {
+    .process-step
+    {
+      text-align: left;
+      position: relative;
+      display: table;
+      height: 316px;
+      line-height: 316px;
+      a{
+        padding-left: 65px;
+        display: table-cell;
+        vertical-align: middle;
+      }
+      span{
+        font-size: 200px;
+        color: #FFFFFF;
+        position: absolute;
+        left: 56px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: -1;
+        opacity: 0.2;
+        .transition(.5s);
+      }
+      .process-icon
+      {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        font-size: 50px;
+        line-height: 1;
+      }
+      &:hover
+      {
+        span
+        {
+          font-size: 100px;
+          left: 15px;
+          opacity: 1;
+        }
+      }
+      &:nth-child(odd) {
+        &:after
+        {
+          content: '';
+          display: block;
+          position: absolute;
+          left: 0;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          z-index: -2;
+        }
+      }
+      &:nth-child(even) {
+        &:after
+        {
+          content: '';
+          display: block;
+          position: absolute;
+          left: 0;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          z-index: -2;
+        }
+      }
+    }
+    &.gray-dark .process-step
+    {
+      &:nth-child(odd) {
+        &:after
+        {
+          background-color: #DDDDDD;
+        }
+      }
+      &:nth-child(even) {
+        &:after
+        {
+          background-color: #222222;
+        }
+        color: #ffffff;
+      }
+    }
+    &.primary-dark .process-step
+    {
+      &:nth-child(even) {
+        &:after
+        {
+          background-color: #222222;
+        }
+        color: #ffffff;
+      }
+    }
+    &.light-gray .process-step
+    {
+      h6{
+        font-size: 18px;
+        margin-bottom: 6px;
+      }
+      &:nth-child(odd) {
+        &:after
+        {
+          background-color: #EEEEEE;
+        }
+        span{
+          color: #878787;
+        }
+      }
+      &:nth-child(even) {
+        &:after
+        {
+          background-color: #DDDDDD;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 991px) {
+  .process{
+    &.style1,&.style2
+    {
+      .process-step
+      {
+        text-align: left;
+        min-height: 220px;
+        p{
+          padding-top: 0;
+        }
+        .process-icon
+        {
+          right: auto;
+          top: 0;
+          &:before,&:after{
+            left: 0;
+            right: 0;
+            height: 500%;
+            width: 0;
+            z-index: -1;
+          }
+          &:before {
+            top: auto;
+          }
+          &:after {
+            bottom: auto;
+          }
+        }
+        &:first-child
+        {
+          .process-icon:before {
+            display: none;
+          }
+        }
+        &:last-child{
+          .process-icon:after {
+            display: none;
+          }
+        }
+      }
+    }
+    &.style1
+    {
+      .process-step
+      {
+        a{
+          padding-left: 150px;
+        }
+        .process-icon
+        {
+          &:before {
+            bottom: 130px;
+          }
+          &:after {
+            top: 130px;
+          }
+        }
+      }
+    }
+    &.style2
+    {
+      .process-step
+      {
+        a{
+          padding-left: 80px;
+        }
+        .process-icon
+        {
+          &:before {
+            bottom: 65px;
+          }
+          &:after {
+            top: 65px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 400px) {
+  .process {
+    &.style1
+    {
+      .process-step
+      {
+        a{
+          padding-left: 100px;
+        }
+        .process-icon
+        {
+          width: 100px;
+          height: 100px;
+          border-width: 5px;
+          img,i {
+            line-height: 90px;
+          }
+          &:before {
+            bottom: 95px;
+          }
+          &:after {
+            top: 95px;
+          }
+        }
+      }
+    }
+  }
+}
